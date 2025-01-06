@@ -1,6 +1,6 @@
 # Glossary
 
-This glossary is a collection of terms related to Project 2A. It clarifies some
+This glossary is a collection of terms related to K0rdent project. It clarifies some
 of the unique terms and concepts we use or explains more common ones that may
 need a little clarity in the way we use them.
 
@@ -19,7 +19,7 @@ consistent API. CAPI is extensible via providers that offer infrastructure-
 specific functionality, such as AWS, Azure, and vSphere.
 
 ### CAPI provider (see also [Infrastructure provider](#infrastructure-provider-see-also-capi-provider))
-A CAPI provider is a Kubernetes CAPI extension that allows 2A to manage and
+A CAPI provider is a Kubernetes CAPI extension that allows K0rdent to manage and
 drive the creation of clusters on a specific infrastructure via API calls.
 
 ### CAPA
@@ -40,7 +40,7 @@ ClusterIdentity is a Kubernetes object that references a Secret object
 containing credentials for a specific infrastructure provider.
 
 ### Credential
-A `Credential` is a custom resource (CR) in HMC that supplies 2A with the
+A `Credential` is a custom resource (CR) in HMC that supplies K0rdent with the
 necessary credentials to manage a specific infrastructure. The credential object
 references other CRs with infrastructure-specific credentials such as access
 keys, passwords, certificates, etc. This means that a credential is specific to
@@ -63,12 +63,12 @@ manage clusters on a specific infrastructure platform (e.g., AWS, Azure, VMware,
 OpenStack, etc.).
 
 ### Managed cluster
-A Kubernetes cluster created and managed by Project 2A.
+A Kubernetes cluster created and managed by K0rdent.
 
 ### Mutli Cluster Service
 The `MultiClusterService` is a custom resource used to manage deployment of beach-head services
 across multiple clusters.
 
 ### Management cluster
-The Kubernetes cluster where 2A is installed and from which all other managed
+The Kubernetes cluster where K0rdent is installed and from which all other managed
 clusters are managed.

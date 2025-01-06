@@ -1,8 +1,6 @@
 # K0rdent Documentation
 
 The home of the consolidated documentation for K0rdent sponsored by Mirantis.
-K0rdent may be referred to as Project 2A or Project 0x2A in the documentation
-due to legacy reasons.
 
 [K0rdent Docs](https://k0rdent.github.io/docs)
 

@@ -70,7 +70,7 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Quick Start:
-    - 2A Installation: quick-start/2a-installation.md
+    - K0rdent Installation: quick-start/k0rdent-installation.md
     - AWS: quick-start/aws.md
     - Azure: quick-start/azure.md
     - vSphere: quick-start/vsphere.md
@@ -79,7 +79,7 @@ nav:
       - Air-gapped Installation Guide: usage/airgap.md
       - Create Managed Cluster: usage/create-managed-cluster.md
       - Cluster Updates: usage/cluster-update.md
-      - 2A Upgrade: usage/2a-upgrade.md
+      - K0rdent Upgrade: usage/k0rdent-upgrade.md
   - Templates:
       - Overview: template/main.md
       - BYO Templates: template/byo-templates.md

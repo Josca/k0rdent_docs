@@ -1,26 +1,26 @@
-# Welcome to Mirantis Project 2A Docs
+# Welcome to K0rdent Docs
 
 ## Introduction
 
-Mirantis Project 2A is focused on developing a consistent way to deploy 
-and manage Kubernetes clusters at scale. Think of Project 2A as a "super 
-control plane" designed to manage other Kubernetes control planes.  Whether 
+Mirantis K0rdent project is focused on developing a consistent way to deploy 
+and manage Kubernetes clusters at scale. Think of K0rdent as a "super 
+control plane" designed to manage other Kubernetes control planes. Whether 
 you want to manage Kubernetes clusters on-premises, in the cloud, or a
-combination of both, Project 2A provides a consistent way to do so.  With
+combination of both, K0rdent provides a consistent way to do so. With
 full life-cycle management, including provisioning, configuration, and
-maintenance, Project 2A is designed to be a repeatable and secure way 
+maintenance, K0rdnet is designed to be a repeatable and secure way 
 to manage your Kubernetes clusters in a central location.
 
-## Project 2A vs HMC
+## K0rdent vs HMC
 
-Project 2A includes all of the components below, but because HMC was the first
+K0rdent includes all of the components below, but because HMC was the first
 component to be developed, it is still referred to as "HMC" in some documentation.
-In many ways "Project 2A" and "HMC" are synonymous.
+In many ways "K0rdent" and "HMC" are synonymous.
 
-2A is built around the creation of a set of standardised templates that enable 
+K0rdent is built around the creation of a set of standardised templates that enable 
 easy, repeatable cluster deployments and life cycle management. 
 
-The main components of 2A include:
+The main components of K0rdent include:
 
  * **Hybrid Multi-Cluster Controller (HMC)**
 
@@ -36,11 +36,11 @@ The main components of 2A include:
 
 ## Quick Start
 
-See the [2A Quick Start Guide](quick-start/2a-installation.md)
+See the [K0rdent Quick Start Guide](quick-start/k0rdent-installation.md)
 
 ## Supported Providers
 
-Project 2A leverages the Cluster API provider ecosystem, the following providers have
+K0rdent leverages the Cluster API provider ecosystem, the following providers have
 had `ProviderTemplates` created and validated, and more are in the works.
 
  * [AWS](quick-start/aws.md)
