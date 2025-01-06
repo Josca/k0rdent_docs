@@ -16,6 +16,8 @@ templates shipped with 2A.
 
 The templates can have any name. However, since they are immutable, we have adopted a naming convention that includes semver in the name, i.e., `template-<major>-<minor>-<patch>`. Below are some examples for each of the templates.
 
+### Provider Template
+
 > EXAMPLE: An example of a `ProviderTemplate` with its status.
 > ```yaml
 > apiVersion: hmc.mirantis.com/v1alpha1
@@ -52,6 +54,8 @@ The templates can have any name. However, since they are immutable, we have adop
 >   observedGeneration: 1
 >   valid: true
 > ```
+
+### Cluster Template
 
 > EXAMPLE: An example of a `ClusterTemplate` with its status.
 > ```yaml
@@ -133,6 +137,8 @@ The templates can have any name. However, since they are immutable, we have adop
 >   - infrastructure-aws
 >   valid: true
 > ```
+
+### Service Template
 
 > EXAMPLE: An example of a `ServiceTemplate` with its status.
 > ```yaml
